@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Front-end test</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="wrap">
+		<img src="img/shield.png" alt="logo">
+		<span>Цены и варианты защиты</span>
+	</header>
+	<div class="content">
+		<div id="selectCar" class="line_class">
+			<div>
+				<a id="selectCitroen" class="car_class" href="img/citroen/standard++.jpg">КЛАСС MINI*</a>
+				<img class="car_img" src="img/citroen.jpg" alt="citroen">
+				<div class="cost">РАССЧИТАТЬ СТОИМОСТЬ</div>
+				<div class="arrow-conteiner"><div class="arrow" id="citroenArrow"></div></div>
+			</div>
+			<div>
+				<a id="selectMazda" class="car_class" href="img/mazda/standard++.jpg">СРЕДНИЙ КЛАСС*</a>
+				<img class="car_img" src="img/mazda.jpg" alt="mazda">
+				<div class="cost">РАССЧИТАТЬ СТОИМОСТЬ</div>
+				<div class="arrow-conteiner"><div class="arrow" id="mazdaArrow"></div></div>
+			</div>
+			<div>
+				<a id="selectMercedes" class="car_class" href="img/mercedes/standard++.jpg">ПРЕМИУМ КЛАСС*</a>
+				<img class="car_img" src="img/mercedes.jpg" alt="mercedes">
+				<div class="cost">РАССЧИТАТЬ СТОИМОСТЬ</div>
+				<div class="arrow-conteiner"><div class="arrow" id="mercedesArrow"></div></div>
+			</div>
+		</div>
+		<div class="select_car">
+			<div class="box_img">
+				<img class="bigImage" src="img/mercedes/standard++.jpg" alt="selected-car">
+			</div>
+			<div class="price">
+				<span>Цена:</span>
+			</div>
+			<div>
+				<div class="price2">
+					<span class="material_text">Материалы + работа</span>
+					<span class="num">7000 руб.</span>
+				</div>
+				<div class="tell">ПОЗВОНИТЕ МНЕ</div>
+		    </div>
+	    </div>
+		<div class="menu">
+			<ul class="standard">
+				<li><a href="" onclick="event.preventDefault()">МИНИМАЛЬНЫЙ</a></li>
+				<li><a href="" onclick="event.preventDefault()">СТАНДАРТ</a></li>
+				<li><a href="" onclick="event.preventDefault()">СТАНДАРТ+</a></li>
+				<li><a href="" onclick="event.preventDefault()"id="standard_select" >СТАНДАРТ++</a></li>
+				<li><a href="" onclick="event.preventDefault()">СТАНДАРТ+++</a></li>
+				<li><a href="" onclick="event.preventDefault()">ЦЕЛИКОМ</a></li>
+			</ul>
+            <span class="part">ЧАСТЯМИ</span>
+            <div class="select_part">
+			    <ul class="parts">
+					<li><a href="">ОПТИКА</a></li>
+					<li><a href="">ПОРОГИ ВНУТРЕННИЕ</a></li>
+					<li><a href="">ПОРОГИ НАРУЖНЫЕ</a></li>
+					<li><a href="">ДВЕРИ (4ШТ)</a></li>
+					<li><a href="">ЗАДНИЕ КРЫЛЬЯ</a></li>
+					<li><a href="">КАПОТ</a></li>
+					<li><a href="">ПЕРЕДНИЙ БАМПЕР</a></li>
+					<li><a href="">ЗАДНИЙ БАМПЕР</a></li>
+				</ul>
+		    </div>
+		</div>
+    </div>
+	<footer>
+	</footer>
+	<script src="index.js" defer></script>
+</body>
+</html>
